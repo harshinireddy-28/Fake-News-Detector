@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+}
+
+.navbar {
+    background-color: #2c3e50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.container {
+    width: 600px;
+    margin: 60px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 30px;
+    color: #2c3e50;
+}
+
+textarea {
+    width: 100%;
+    height: 120px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+button {
+    padding: 10px 25px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.result {
+    margin-top: 25px;
+    padding: 15px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.real {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.fake {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+.badge {
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.badge.real {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.badge.fake {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+footer {
+    margin-top: 60px;
+    padding: 15px;
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
