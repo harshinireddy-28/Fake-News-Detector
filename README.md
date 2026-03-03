@@ -30,3 +30,7 @@ The project workflow includes:
 6. Evaluating the model using accuracy score (98.63%).
 
 7. Saving the trained model and integrating it into a Flask web application for real-time prediction.
+
+## Sample Output
+
+![Fake News Detector Screenshot](screenshot.png)
